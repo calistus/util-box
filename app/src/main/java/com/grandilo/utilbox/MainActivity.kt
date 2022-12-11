@@ -11,6 +11,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.grandilo.ui_util.SmoothAlert
 import com.grandilo.utilbox.ui.theme.UtilBoxTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,6 +26,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column() {
                         Greeting("Android again")
+                        SmoothAlert(title = "Hello", message ="How there" )
                     }
                 }
             }
