@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grandilo.ui_util">
+
+    <application>
+        <activity
+            android:name=".AlertDialog"
+            android:exported="false"
+            android:label="@string/title_activity_alert_dialog"
+            android:theme="@style/Theme.UtilBox" />
+    </application>
+
+</manifest>
