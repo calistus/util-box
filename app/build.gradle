@@ -60,7 +60,5 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
-//    implementation project(':ui-util')
-    implementation 'com.github.calistus:util-box:1.2'
-
+    implementation project(':ui-util')
 }
